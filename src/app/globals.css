@@ -1,14 +1,17 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #090D13;
+  --foreground: #EDEDED;
+  --border-header: #1D1E21;
+  --text-btn-header: #D3AF67;
+  --border-btn-header: #463A2B;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 
 
@@ -24,6 +27,11 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+}
+
+ul {
+  list-style: none;
 }
 
 a {
