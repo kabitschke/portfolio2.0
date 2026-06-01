@@ -2,8 +2,8 @@
   --background: #090D13;
   --foreground: #EDEDED;
   --border-header: #1D1E21;
-  --text-btn-header: #D3AF67;
-  --border-btn-header: #463A2B;
+  --dourado-color: #D3AF67;
+  --border-color: #463A2B;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -28,6 +28,12 @@ body {
   padding: 0;
   margin: 0;
 
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
 ul {

@@ -1,4 +1,112 @@
 .containerMain {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+    overflow: visible;
+}
+
+/* lado esquerdo */
+.main {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* lado direito */
+.imgNotebook {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+/* 👇 imagem estourando */
+.imgNotebook img {
+    transform: translateX(90px);
+    /* ajusta aqui fino */
+}
+
+/* ✨ efeito leve (opcional, fica lindo) */
+.imgNotebook img {
+    transition: transform 0.4s ease;
+}
+
+.imgNotebook img:hover {
+    transform: translateX(90px) scale(1.03);
+}
+
+
+
+/* .containerMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.imgNotebook {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(70px);
+} */
+
+
+
+.presentation {
+    color: var(--dourado-color);
+    padding: 5px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    font-size: 12px;
+}
+
+.h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.letterDourado {
+    color: var(--dourado-color);
+}
+
+.subTitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.btnArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnRight,
+.btnLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnRight {
+    background: var(--dourado-color);
+    color: #000;
+    border: none;
+}
+
+.btnLeft {
+    background: transparent;
+    border: 1px solid var(--border-color);
+}
+
+.icoWhatsapp {
+    color: var(--dourado-color);
 }
