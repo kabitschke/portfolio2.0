@@ -2,6 +2,7 @@
 import { Header } from '@/components/Header/page';
 import styles from '@/app/page.module.css';
 import { Main } from '@/components/Main/page';
+import { Section } from '@/components/Section/page';
 
 export default function Home() {
 
@@ -17,6 +18,9 @@ export default function Home() {
       <Header />
 
       <Main />
+
+
+      <Section />
 
 
 
