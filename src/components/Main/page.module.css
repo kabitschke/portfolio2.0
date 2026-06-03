@@ -43,7 +43,7 @@
 .presentation {
     color: var(--dourado-color);
     padding: 5px 15px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-primary);
     border-radius: 16px;
     font-size: 12px;
 }
@@ -88,7 +88,7 @@
 
 .btnLeft {
     background: transparent;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-primary);
 }
 
 .icoWhatsapp {

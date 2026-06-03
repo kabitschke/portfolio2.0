@@ -1,9 +1,10 @@
 :root {
   --background: #090D13;
+  --background-inside: #0B1017;
   --foreground: #EDEDED;
-  --border-header: #1D1E21;
+  --border-secondary: #282E38;
   --dourado-color: #D3AF67;
-  --border-color: #463A2B;
+  --border-primary: #463A2B;
   --text-secondary: #818684;
 }
 

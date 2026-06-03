@@ -1,6 +1,5 @@
 import styles from '@/components/Section/page.module.css';
-import { ArrowRight } from 'lucide-react';
-import Image from 'next/image';
+import { SectionItem } from '../SectionItem/page';
 
 export const Section = () => {
     return (
@@ -10,102 +9,53 @@ export const Section = () => {
 
             <p className={styles.subTitle}>Alguns dos projetos que desenvolvi com foco em design, performance e resultado.</p>
 
-            <div className={styles.cardWork}>
+            <div className={styles.cardWorkContainer}>
 
-                <div className={styles.cardWorkItem}>
-                    <div className={styles.imgCard}>
-                        <Image
-                            src={'/img/pizzaria.png'}
-                            alt='landing page'
-                            width={150}
-                            height={75}
-                        />
+                <SectionItem
+                    src='/img/pizzaria.png'
+                    alt='landing page'
+                    width={100}
+                    height={50}
+                    title='Landing Page - Pizzaria'
+                    description='Landing page moderna e responsiva para aumentos de pedidos online.'
+                    items={['React', 'CSS', 'JavaScript']}
+                    link='#'
+                />
 
-                    </div>
+                <SectionItem
+                    src='/img/gym.png'
+                    alt='landing page'
+                    width={100}
+                    height={50}
+                    title='Landing Page - Pizzaria'
+                    description='Landing page moderna e responsiva para aumentos de pedidos online.'
+                    items={['React', 'CSS', 'JavaScript']}
+                    link='#'
+                />
 
-                    <div className={styles.textCard}>
-                        <h4>Landing Page - Pizzaria</h4>
+                <SectionItem
+                    src='/img/finance.png'
+                    alt='landing page'
+                    width={100}
+                    height={50}
+                    title='Landing Page - Pizzaria'
+                    description='Landing page moderna e responsiva para aumentos de pedidos online.'
+                    items={['React', 'CSS', 'JavaScript']}
+                    link='#'
+                />
 
-                        <p>Landing page moderna e responsiva para aumentos de pedidos online.</p>
-                    </div>
+                <SectionItem
+                    src='/img/pizzaria.png'
+                    alt='landing page'
+                    width={100}
+                    height={50}
+                    title='Landing Page - Pizzaria'
+                    description='Landing page moderna e responsiva para aumentos de pedidos online.'
+                    items={['React', 'CSS', 'JavaScript']}
+                    link='#'
+                />
 
-                    <div className={styles.tec}>
-                        <div>React</div>
-                        <div>CSS</div>
-                        <div>JavaScript</div>
-                    </div>
 
-                    <div className={styles.Link}>
-                        <a href="">Ver projeto</a>
-
-                        <ArrowRight size={12} />
-
-                    </div>
-
-                </div>
-
-                <div className={styles.cardWorkItem}>
-                    <div className={styles.imgCard}>
-                        <Image
-                            src={'/img/pizzaria.png'}
-                            alt='landing page'
-                            width={150}
-                            height={75}
-                        />
-                    </div>
-
-                    <div className={styles.textCard}>
-                        <h4>Landing Page - Pizzaria</h4>
-
-                        <p>Landing page moderna e responsiva para aumentos de pedidos online.</p>
-                    </div>
-
-                    <div className={styles.tec}>
-                        <div>React</div>
-                        <div>CSS</div>
-                        <div>JavaScript</div>
-                    </div>
-
-                    <div className={styles.Link}>
-                        <a href="">Ver projeto</a>
-
-                        <ArrowRight size={12} />
-
-                    </div>
-
-                </div>
-
-                <div className={styles.cardWorkItem}>
-                    <div className={styles.imgCard}>
-                        <Image
-                            src={'/img/pizzaria.png'}
-                            alt='landing page'
-                            width={150}
-                            height={75}
-                        />
-
-                    </div>
-
-                    <div className={styles.textCard}>
-                        <h4>Landing Page - Pizzaria</h4>
-
-                        <p>Landing page moderna e responsiva para aumentos de pedidos online.</p>
-                    </div>
-
-                    <div className={styles.tec}>
-                        <div>React</div>
-                        <div>CSS</div>
-                        <div>JavaScript</div>
-                    </div>
-
-                    <div className={styles.Link}>
-                        <a href="">Ver projeto</a>
-
-                        <ArrowRight size={12} />
-
-                    </div>
-
-                </div>
             </div>
 
 
