@@ -1,0 +1,56 @@
+.container {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid var(--border-secondary);
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 20px;
+}
+
+.about span {
+    color: var(--dourado-color);
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.about h3 {
+    margin-top: 20px;
+
+}
+
+.about p {
+    margin-top: 10px;
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skillsItems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.textSkill p {
+    padding-top: 5px;
+    font-size: 10px;
+    color: var(--text-secondary);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--dourado-color);
+    border-radius: 50%;
+    padding: 8px;
+    color: var(--dourado-color);
+    box-shadow: inset 0 2px 2px var(--dourado-color);
+}
