@@ -4,7 +4,7 @@ import { SectionItem } from '../SectionItem/page';
 export const Section = () => {
     return (
         <section className={styles.section}>
-            <div className={styles.title}>Meus trabalhos</div>
+            <div className={styles.title}>MEUS TRABALHOS</div>
             <h2>Projetos em destaque</h2>
 
             <p className={styles.subTitle}>Alguns dos projetos que desenvolvi com foco em design, performance e resultado.</p>

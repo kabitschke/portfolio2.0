@@ -42,7 +42,7 @@ export const SectionItem = ({ src, alt, width, height, title, description, items
       <div className={styles.Link}>
         <a href={link}>Ver projeto</a>
 
-        <ArrowRight size={12} />
+        <ArrowRight size={14} />
 
       </div>
 

@@ -1,0 +1,75 @@
+.sectionContainer {
+    margin-top: 40px;
+    border: 1px solid var(--border-secondary);
+    border-radius: 8px;
+    position: relative;
+}
+
+.sectionContainer span {
+    position: absolute;
+    top: -14px;
+    right: 45%;
+    color: var(--dourado-color);
+    border: 1px solid var(--border-primary);
+    padding: 4px 10px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 12px;
+    background: var(--background);
+}
+
+.sectionContainer h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subTitle {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.containerCard {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--border-secondary);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--background-inside);
+}
+
+.cardIcon {
+    background-color: var(--background-icon);
+    color: var(--dourado-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cardItem p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: var(--text-secondary);
+}
+
+.cardItem h4 {
+    font-size: 14px;
+}
+
+.link {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: var(--dourado-color);
+}
