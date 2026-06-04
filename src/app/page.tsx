@@ -5,6 +5,7 @@ import { Main } from '@/components/Main/page';
 import { Section } from '@/components/Section/page';
 import { SectionMake } from '@/components/SectionMake/page';
 import { SectionAbout } from '@/components/SectionAbout/page';
+import { SectionCall } from '@/components/SectionCall/page';
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Section />
       <SectionMake />
       <SectionAbout />
+      <SectionCall />
 
 
 
