@@ -1,12 +1,12 @@
 :root {
-  --background: #090D13;
-  --background-inside: #0B1017;
+  --background: #010D1B;
+  --background-inside: #03101F;
   --foreground: #EDEDED;
-  --border-secondary: #282E38;
-  --dourado-color: #D3AF67;
-  --border-primary: #463A2B;
+  --border-secondary: #1E3B57;
+  --main-color: #4A90E2;
+  --border-primary: #122334;
   --text-secondary: #818684;
-  --background-icon: #2E291B;
+  --background-icon: #14365F;
   --background-call: #141414;
 }
 
@@ -14,6 +14,8 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    
   }
 } */
 

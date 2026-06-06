@@ -9,7 +9,7 @@
     position: absolute;
     top: -14px;
     right: 45%;
-    color: var(--dourado-color);
+    color: var(--main-color);
     border: 1px solid var(--border-primary);
     padding: 4px 10px;
     border-radius: 16px;
@@ -50,7 +50,7 @@
 
 .cardIcon {
     background-color: var(--background-icon);
-    color: var(--dourado-color);
+    color: var(--main-color);
     padding: 10px;
     border-radius: 10px;
 }
@@ -71,5 +71,5 @@
     align-items: center;
     gap: 5px;
     font-size: 14px;
-    color: var(--dourado-color);
+    color: var(--main-color);
 }

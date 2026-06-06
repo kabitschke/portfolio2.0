@@ -41,7 +41,7 @@
 
 
 .presentation {
-    color: var(--dourado-color);
+    color: #FFF;
     padding: 5px 15px;
     border: 1px solid var(--border-primary);
     border-radius: 16px;
@@ -55,7 +55,7 @@
 }
 
 .letterDourado {
-    color: var(--dourado-color);
+    color: var(--main-color);
 }
 
 .subTitle {
@@ -81,8 +81,12 @@
 }
 
 .btnRight {
-    background: var(--dourado-color);
-    color: #000;
+    background: #2983EC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2983EC, #14365F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2983EC, #14365F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
 }
 
@@ -92,7 +96,9 @@
 }
 
 .icoWhatsapp {
-    color: var(--dourado-color);
+    font-size: 18px;
+    color: #FFF;
+
 }
 
 /*Items cards*/
@@ -124,9 +130,9 @@
 .ico {
     display: flex;
     align-items: center;
-    border: 1px solid var(--dourado-color);
+    border: 1px solid var(--main-color);
     border-radius: 50%;
     padding: 8px;
-    color: var(--dourado-color);
-    box-shadow: inset 0 2px 2px var(--dourado-color);
+    color: var(--main-color);
+    box-shadow: inset 0 2px 2px var(--main-color);
 }

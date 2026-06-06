@@ -34,7 +34,7 @@ export const Main = () => {
 
                 <div className={styles.imgNotebook}>
                     <Image
-                        src="/img/notebook.png"
+                        src="/img/newNotebook.png"
                         alt='notebook'
                         width={600}
                         height={400}

@@ -2,21 +2,28 @@
     margin-top: 20px;
     padding: 20px 40px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 20px;
     border: 1px solid var(--border-primary);
     border-radius: 8px;
-    background-color: var(--background-call);
+    background-color: var(--background);
 }
 
 .icon {
     display: flex;
-    padding: 10px 20px;
-    border-radius: 16px;
+    padding: 20px 15px;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
-    color: var(--dourado-color);
+    color: #FFF;
     background: var(--background-icon);
 }
+
+.text {
+    flex: 1;
+}
+
 
 .text h2 {
     font-size: 18px;
@@ -24,6 +31,7 @@
 }
 
 .text p {
+    max-width: 60%;
     font-size: 12px;
 }
 
@@ -31,15 +39,15 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 0 10px;
+    padding: 10px;
     cursor: pointer;
     border-radius: 8px;
     border: none;
-    background: #897143;
+    background: #2983EC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #897143, #4E3D1E);
+    background: -webkit-linear-gradient(to right, #2983EC, #14365F);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #897143, #4E3D1E);
+    background: linear-gradient(to right, #2983EC, #14365F);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

@@ -9,7 +9,7 @@
 }
 
 .about span {
-    color: var(--dourado-color);
+    color: var(--main-color);
     border: 1px solid var(--border-primary);
     border-radius: 8px;
     padding: 4px 8px;
@@ -48,9 +48,9 @@
 .icon {
     display: flex;
     align-items: center;
-    border: 1px solid var(--dourado-color);
+    border: 1px solid var(--main-color);
     border-radius: 50%;
     padding: 8px;
-    color: var(--dourado-color);
-    box-shadow: inset 0 2px 2px var(--dourado-color);
+    color: var(--main-color);
+    box-shadow: inset 0 2px 2px var(--main-color);
 }
