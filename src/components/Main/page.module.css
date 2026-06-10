@@ -46,6 +46,7 @@
     border: 1px solid var(--border-primary);
     border-radius: 16px;
     font-size: 12px;
+    background: var(--background);
 }
 
 .h1 {
@@ -91,7 +92,7 @@
 }
 
 .btnLeft {
-    background: transparent;
+    background: var(--background);
     border: 1px solid var(--border-primary);
 }
 

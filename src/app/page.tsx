@@ -22,7 +22,7 @@ export default function Home() {
       <SectionCall />
       <Footer />
 
-      <footer >&copy; 2026 Maycon Kabitschke. Todos os direitos reservados. </footer>
+      <footer >&copy; {new Date().getFullYear()} Maycon Kabitschke. Todos os direitos reservados. </footer>
 
 
 
