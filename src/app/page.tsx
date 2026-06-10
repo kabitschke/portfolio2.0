@@ -6,6 +6,7 @@ import { Section } from '@/components/Section/page';
 import { SectionMake } from '@/components/SectionMake/page';
 import { SectionAbout } from '@/components/SectionAbout/page';
 import { SectionCall } from '@/components/SectionCall/page';
+import { Footer } from '@/components/Footer/page';
 
 export default function Home() {
 
@@ -19,6 +20,9 @@ export default function Home() {
       <SectionMake />
       <SectionAbout />
       <SectionCall />
+      <Footer />
+
+      <footer >&copy; 2026 Maycon Kabitschke. Todos os direitos reservados. </footer>
 
 
 
