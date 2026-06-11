@@ -4,15 +4,9 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    border: 1px solid var(--border-primary);
+    border: 1px solid var(--border-secondary);
     padding-right: 20px;
-    background: #03101F;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #03101F, #010E1D);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #03101F, #010E1D);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: var(--background-inside);
 }
 
 .nav ul {
@@ -26,7 +20,7 @@
     gap: 10px;
     background: transparent;
     padding: 10px 20px;
-    border: 1px solid var(--border-primary);
+    border: 1px solid var(--border-secondary);
     border-radius: 8px;
     cursor: pointer;
     color: var(--main-color);

@@ -1,7 +1,8 @@
 :root {
-  --background: #010D1B;
-  --background-inside: #03101F;
+  --background: #03182F;
+  --background-inside: #052038;
   --foreground: #EDEDED;
+  --text-secondary: #81848F;
   --border-secondary: #1E3B57;
   --main-color: #4A90E2;
   --border-primary: #122334;
@@ -27,11 +28,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('/img/point.png');
+  animation: moveDots 20s linear infinite;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='2' cy='2' r='1' fill='white' opacity='0.2'/></svg>");
+
+  /* background-image: url('/img/point.png');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+
+@keyframes moveDots {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 40px;
+  }
 }
 
 * {

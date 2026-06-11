@@ -7,6 +7,7 @@
     border-radius: 8px;
     background-color: var(--background);
     padding: 20px;
+    color: var(--text-secondary);
 }
 
 .footer h4 {
@@ -35,6 +36,7 @@
     gap: 4px;
     font-size: 12px;
     margin: 4px 0px;
+
 }
 
 .btn {
@@ -49,4 +51,5 @@
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
+    color: var(--foreground);
 }
