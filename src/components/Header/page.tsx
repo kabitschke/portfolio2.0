@@ -1,22 +1,15 @@
 import styles from '@/components/Header/page.module.css';
 import { ArrowRight } from 'lucide-react';
-import Image from 'next/image';
+import { useState } from 'react';
+
 
 
 export const Header = () => {
+    const [open, setOpen] = useState(false);
 
     return (
         <header className={styles.header}>
-            <div className={styles.logo}>MK
-                {/* <Image
-                    src="/img/newLogo.png"
-                    alt="logo"
-                    width={150}
-                    height={75}
-                    loading='eager'
-
-                /> */}
-            </div>
+            <div className={styles.logo}>MK</div>
 
             <nav className={styles.nav}>
                 <ul>
@@ -29,6 +22,22 @@ export const Header = () => {
             </nav>
 
             <button className={styles.btn}>Fazer orçamento <ArrowRight size={16} /></button>
+
+            <div className={`${styles.menu} ${open ? styles.active : ""}`}
+                onClick={() => setOpen(!open)}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div className={`${styles.sidebar} ${open ? styles.show : ""}`}>
+                <ul>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Projetos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
 
         </header>
     );

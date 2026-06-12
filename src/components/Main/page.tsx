@@ -34,10 +34,10 @@ export const Main = () => {
 
                 <div className={styles.imgNotebook}>
                     <Image
-                        src="/img/notebook.png"
+                        src="/img/cod.png"
                         alt='notebook'
-                        width={600}
-                        height={400}
+                        width={540}
+                        height={380}
                         loading='eager'
 
                     />
