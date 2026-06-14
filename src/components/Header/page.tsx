@@ -1,4 +1,6 @@
 import styles from '@/components/Header/page.module.css';
+import { faGitAlt, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
@@ -32,11 +34,35 @@ export const Header = () => {
 
             <div className={`${styles.sidebar} ${open ? styles.show : ""}`}>
                 <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
+                    <li>Início</li>
                     <li>Projetos</li>
-                    <li>Contato</li>
+                    <li>Serviços</li>
+                    <li>Contatos</li>
                 </ul>
+
+
+                <div className={styles.contact}>
+
+
+                    <div>
+                        <a href="">
+                            <FontAwesomeIcon icon={faGitAlt} />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <FontAwesomeIcon icon={faWhatsapp} />
+                        </a>
+                    </div>
+
+                </div>
             </div>
 
         </header>
