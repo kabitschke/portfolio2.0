@@ -56,10 +56,10 @@ export const SectionAbout = () => {
 
             <div className={styles.photo}>
                 <Image
-                    src="/img/logo.png"
+                    src="/img/finance.png"
                     alt='me'
-                    width={100}
-                    height={50}
+                    width={200}
+                    height={150}
                     loading='eager'
                 />
             </div>

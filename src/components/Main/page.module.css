@@ -34,7 +34,7 @@
 }
 
 .presentation {
-    color: #FFF;
+    color: var(--foreground);
     padding: 5px 15px;
     border: 1px solid var(--border-primary);
     border-radius: 16px;
@@ -72,6 +72,7 @@
     gap: 10px;
     padding: 10px 20px;
     border-radius: 8px;
+    color: var(--foreground);
     cursor: pointer;
 }
 
@@ -92,7 +93,7 @@
 
 .icoWhatsapp {
     font-size: 18px;
-    color: #FFF;
+    color: var(--foreground);
 
 }
 
@@ -151,8 +152,11 @@
     .btnArea {
         justify-content: center;
         gap: 20px;
+    }
 
-
+    .items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
 
 }

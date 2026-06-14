@@ -31,12 +31,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   animation: moveDots 20s linear infinite;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='2' cy='2' r='1' fill='white' opacity='0.2'/></svg>");
-
-  /* background-image: url('/img/point.png');
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 @keyframes moveDots {
@@ -77,8 +71,8 @@ footer {
   font-size: 12px;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */
