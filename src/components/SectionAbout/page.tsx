@@ -56,9 +56,9 @@ export const SectionAbout = () => {
 
             <div className={styles.photo}>
                 <Image
-                    src="/img/finance.png"
-                    alt='me'
-                    width={200}
+                    src="/img/maycon.jpeg"
+                    alt='Maycon Kabitschke'
+                    width={150}
                     height={150}
                     loading='eager'
                 />

@@ -25,6 +25,7 @@
 }
 
 .menu.active {
+    position: fixed;
     transform: translateX(160px);
     z-index: 1000;
 }

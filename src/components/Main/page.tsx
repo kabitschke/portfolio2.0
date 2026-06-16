@@ -16,7 +16,7 @@ export const Main = () => {
                         <div className={styles.letterDourado}>Front-end</div>
                         especializado em<br />
                         Landing Pages que<br />
-                        <div className={styles.letterDourado}>convertem.</div>
+                        <div className={styles.letterColor}>convertem</div>
                     </h1>
 
                     <p className={styles.subTitle}>Crio páginas rápidas, modernas e focadas em <br />
