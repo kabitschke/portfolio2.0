@@ -35,7 +35,7 @@
 .presentation {
     color: var(--foreground);
     padding: 5px 15px;
-    border: 1px solid var(--border-primary);
+    border: 1px solid var(--border-secondary);
     border-radius: 16px;
     font-size: 12px;
     background: var(--background);
@@ -87,7 +87,7 @@
 
 .btnLeft {
     background: var(--background);
-    border: 1px solid var(--border-primary);
+    border: 1px solid var(--border-secondary);
 }
 
 .icoWhatsapp {

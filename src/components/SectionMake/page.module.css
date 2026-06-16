@@ -12,7 +12,7 @@
     left: 50%;
     transform: translateX(-50%);
     color: var(--main-color);
-    border: 1px solid var(--border-primary);
+    border: 1px solid var(--border-secondary);
     padding: 4px 10px;
     border-radius: 16px;
     text-align: center;
