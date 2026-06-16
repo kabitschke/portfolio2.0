@@ -52,3 +52,11 @@
     cursor: pointer;
     color: var(--foreground);
 }
+
+
+@media (max-width: 460px) {
+    .btn {
+        display: none;
+    }
+
+}

@@ -62,17 +62,6 @@
     justify-self: center;
 }
 
-/* .photo::after {
-    content: "";
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-
-} */
-
 .photo img {
     border-radius: 50%;
     border: 1px solid rgba(70, 47, 47, 0.8);
@@ -88,10 +77,16 @@
 }
 
 @media (max-width: 460px) {
-
     .container {
         grid-template-columns: 1fr;
+    }
 
+    .skills {
+        grid-template-columns: 1fr;
 
+    }
+
+    .about {
+        text-align: center;
     }
 }

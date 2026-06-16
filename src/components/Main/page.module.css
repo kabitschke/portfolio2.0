@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    margin-top: 30px;
     padding: 10px 20px;
     gap: 20px;
 }
@@ -91,7 +91,7 @@
 }
 
 .icoWhatsapp {
-    font-size: 18px;
+    font-size: 14px;
     color: var(--foreground);
 
 }
@@ -164,6 +164,7 @@
     .btnArea {
         justify-content: center;
         gap: 20px;
+
     }
 
     .items {
@@ -177,6 +178,18 @@
     .items {
         grid-template-columns: 1fr;
     }
+
+    .btnArea {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .btnRight {
+        padding: 11px 25px;
+    }
+
+
 
 
 }

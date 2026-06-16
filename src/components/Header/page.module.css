@@ -159,7 +159,11 @@
     .btn {
         order: 3;
     }
+}
 
-
+@media (max-width: 460px) {
+    .btn {
+        display: none;
+    }
 
 }
