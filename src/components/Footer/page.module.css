@@ -39,6 +39,14 @@
 
 }
 
+.footer a:hover {
+    color: var(--main-color);
+}
+
+.socialNetwork div:hover {
+    color: var(--main-color);
+}
+
 .btn {
     display: flex;
     align-items: center;
