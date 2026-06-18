@@ -4,6 +4,7 @@
     border-radius: 8px;
     position: relative;
     background: var(--background);
+    padding: 0 10px;
 }
 
 .sectionContainer span {

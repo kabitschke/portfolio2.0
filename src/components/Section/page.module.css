@@ -4,6 +4,7 @@
     position: relative;
     margin-top: 20px;
     background: var(--background);
+    padding: 0 10px;
 }
 
 .section h2 {
