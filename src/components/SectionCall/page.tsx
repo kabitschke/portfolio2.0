@@ -25,7 +25,7 @@ export const SectionCall = () => {
 
             </div>
 
-            <button className={styles.btnWhatSapp}>Falar no WhatSapp <div className={styles.icoWhatsapp}><FontAwesomeIcon icon={faWhatsapp} /></div></button>
+            <button className={styles.btnWhatSapp}><a href="http://api.whatsapp.com/send?phone=5527997145039" target='blank'>Falar no WhatSapp</a><div className={styles.icoWhatsapp}><FontAwesomeIcon icon={faWhatsapp} /></div></button>
 
         </section>
     )

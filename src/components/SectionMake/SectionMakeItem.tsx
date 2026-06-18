@@ -1,5 +1,5 @@
 import styles from '@/components/SectionMake/page.module.css';
-import { ArrowRight, Icon, LucideIcon } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 
 type Props = {
     title: string;
@@ -24,9 +24,7 @@ export const SectionMakeItem = ({ title, description, link, icon: Icon }: Props)
                 <p>
                     {description}
                 </p>
-                <div className={styles.link}>
-                    <a href={link}>Saiba mais </a> <ArrowRight size={14} />
-                </div>
+
             </div>
 
 

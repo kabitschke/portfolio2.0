@@ -8,7 +8,7 @@ export const Footer = () => {
 
 
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} id='contatos'>
             <div className={styles.apresentation}>
                 <h2>MK</h2>
                 <p>Desenvolvedor Front-end</p>
@@ -19,11 +19,11 @@ export const Footer = () => {
             <div className={styles.navegation}>
                 <h4>Navegação</h4>
                 <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conrtatos">Contatos</a></li>
                 </ul>
             </div>
 
@@ -31,7 +31,7 @@ export const Footer = () => {
                 <h4>Redes Sociais</h4>
                 <div>
                     <FontAwesomeIcon icon={faGitAlt} />
-                    <a href="">GitHub</a>
+                    <a href="https://github.com/kabitschke" target="_blank">GitHub</a>
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faLinkedin} />
@@ -39,12 +39,12 @@ export const Footer = () => {
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faWhatsapp} />
-                    <a href="">WhatsApp</a>
+                    <a href="http://api.whatsapp.com/send?phone=5527997145039" target='blank'>WhatsApp</a>
                 </div>
 
                 <div>
                     <FontAwesomeIcon icon={faEnvelope} />
-                    <a href="">E-mail</a>
+                    <a href="mailto:mayconkabitschke@gmail.com?" target="_blank">E-mail</a>
                 </div>
             </div>
 
@@ -55,7 +55,7 @@ export const Footer = () => {
                 <p>Vamos conversar e criar algo incrível juntos</p>
 
                 <div className={styles.btn}>
-                    Fazer orçamento <ArrowRight size={12} />
+                    <a href="http://api.whatsapp.com/send?phone=5527997145039" target='blank'>Fazer orçamento</a><ArrowRight size={12} />
                 </div>
             </div>
 

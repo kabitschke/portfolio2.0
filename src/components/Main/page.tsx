@@ -7,7 +7,7 @@ import Image from 'next/image';
 export const Main = () => {
     return (
         <>
-            <div className={styles.containerMain}>
+            <div className={styles.containerMain} id='inicio'>
                 <main className={styles.main}>
                     <span className={styles.presentation}>OLÁ, EU SOU MAYCON KABITSCHKE 👋</span>
 
@@ -24,9 +24,9 @@ export const Main = () => {
                     </p>
 
                     <div className={styles.btnArea}>
-                        <button className={styles.btnRight}>Ver projetos <ArrowRight size={14} /></button>
+                        <button className={styles.btnRight}><a href="#projetos">Ver projetos</a><ArrowRight size={14} /></button>
 
-                        <button className={styles.btnLeft}>Falar comigo <div className={styles.icoWhatsapp}><FontAwesomeIcon icon={faWhatsapp} /></div></button>
+                        <button className={styles.btnLeft}><a href="http://api.whatsapp.com/send?phone=5527997145039" target='blank'>Falar comigo</a><div className={styles.icoWhatsapp}><FontAwesomeIcon icon={faWhatsapp} /></div></button>
                     </div>
 
                 </main>

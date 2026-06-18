@@ -4,7 +4,7 @@ import { SectionMakeItem } from './SectionMakeItem';
 
 export const SectionMake = () => {
     return (
-        <section className={styles.sectionContainer}>
+        <section className={styles.sectionContainer} id='servicos'>
             <span>O QUE EU FAÇO</span>
             <h2>Serviços que ofereço</h2>
 
@@ -12,14 +12,14 @@ export const SectionMake = () => {
             <div className={styles.containerCard}>
                 <SectionMakeItem
                     title='Landing Pages'
-                    description='páginas focadas em conversão, com design atrativo e performance ultra rápida.'
+                    description='Páginas focadas em conversão, com design atrativo e performance ultra rápida.'
                     link='#'
                     icon={AppWindowIcon}
                 />
 
                 <SectionMakeItem
                     title='Sites institucionais'
-                    description='sites profissionais que transmitem credibilidade e fortalecem sua marca na internet'
+                    description='Sites profissionais que transmitem credibilidade e fortalecem sua marca na internet'
                     link='#'
                     icon={Monitor}
                 />

@@ -5,7 +5,7 @@ import Image from 'next/image';
 export const SectionAbout = () => {
 
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id='sobre'>
             <div className={styles.about}>
 
                 <span>SOBRE MIM</span>
