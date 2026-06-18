@@ -10,6 +10,10 @@ import { motion, AnimatePresence } from "framer-motion";
 export const Header = () => {
     const [open, setOpen] = useState(false);
 
+    const handleClick = () => {
+        setOpen(false);
+    }
+
     return (
         <header className={styles.header}>
             <div className={styles.logo}>MK</div>
@@ -18,9 +22,9 @@ export const Header = () => {
                 <ul>
                     <li><a href="#inicio" >Início</a></li>
                     <li><a href="#projetos" >Projetos</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="#servicos" >Serviços</a></li>
+                    <li><a href="#sobre" >Sobre</a></li>
+                    <li><a href="#contatos" >Contatos</a></li>
                 </ul>
             </nav>
 
@@ -66,12 +70,12 @@ export const Header = () => {
                                 }
                             }}
                         >
-                            <ul>
-                                <li><a href="#inicio">Início</a></li>
-                                <li><a href="#projetos">Projetos</a></li>
-                                <li><a href="#servicos">Serviços</a></li>
-                                <li><a href="#sobre">Sobre</a></li>
-                                <li><a href="#contatos">Contatos</a></li>
+                            <ul onClick={handleClick}>
+                                <li><a href="#inicio" >Início</a></li>
+                                <li><a href="#projetos" >Projetos</a></li>
+                                <li><a href="#servicos" >Serviços</a></li>
+                                <li><a href="#sobre" >Sobre</a></li>
+                                <li><a href="#contatos" >Contatos</a></li>
                             </ul>
 
                             <div className={styles.contact}>
